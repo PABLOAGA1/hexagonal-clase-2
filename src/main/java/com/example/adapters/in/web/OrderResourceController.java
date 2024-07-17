@@ -1,8 +1,8 @@
-package com.example.adapters.in;
+package com.example.adapters.in.web;
 
 import com.example.domain.model.Order;
 import com.example.domain.model.OrderItem;
-import com.example.domain.service.OrderService;
+import com.example.application.OrderService;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.GET;
@@ -19,7 +19,7 @@ import java.util.List;
 @Path("/orders")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-public class OrderResource {
+public class OrderResourceController {
     @Inject
     OrderService orderService;
 

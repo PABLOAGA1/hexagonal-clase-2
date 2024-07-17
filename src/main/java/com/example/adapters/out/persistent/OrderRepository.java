@@ -1,4 +1,4 @@
-package com.example.domain.repository;
+package com.example.adapters.out.persistent;
 
 import com.example.domain.model.Order;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
